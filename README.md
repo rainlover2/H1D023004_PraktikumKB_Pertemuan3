@@ -2,7 +2,7 @@
 import random
 import datetime
 
-# Struktur Data: List untuk antrian dan dictionary untuk menyimpan informasi pelanggan
+
 antrian = []
 pelanggan_info = {}
 
