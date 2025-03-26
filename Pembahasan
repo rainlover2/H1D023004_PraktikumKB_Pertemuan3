@@ -1,0 +1,69 @@
+Program ini adalah simulasi sistem antrian sederhana di sebuah layanan, seperti bank atau kantor layanan publik.
+random: Digunakan untuk menghasilkan nomor antrian secara acak.
+datetime: Digunakan untuk mencatat waktu pengambilan nomor antrian dan waktu pelayanan.
+antrian: List yang menyimpan nomor antrian dalam urutan FIFO (First In First Out).
+pelanggan_info: Dictionary untuk menyimpan data pelanggan dengan nomor antrian sebagai kunci.
+
+1. Fungsi ambil_nomor_antrian(nama)
+- Menghasilkan nomor antrian acak antara 100-999.
+- Menyimpan informasi pelanggan dalam dictionary pelanggan_info.
+- Mencetak informasi nomor antrian yang diambil.
+
+2. Fungsi layani_pelanggan()
+- Memeriksa apakah antrian kosong.
+- Mengambil nomor antrian pertama dalam antrian (FIFO).
+- Menghapus pelanggan dari dictionary setelah dilayani.
+- Mencetak informasi pelanggan yang sedang dilayani.
+
+3. Fungsi main()
+- Menggunakan daftar input_data untuk simulasi input otomatis.
+- Menampilkan menu pilihan setiap iterasi.
+- Mengambil input secara otomatis dari input_data untuk menghindari input() yang tidak bisa dijalankan di lingkungan tertentu.
+- Menggunakan loop while untuk menjalankan program secara terus-menerus hingga selesai.
+
+4. Blok Eksekusi Utama
+Menjalankan fungsi main() jika program dieksekusi langsung.
+
+CONTOH OUTPUT PROGRAM
+Menu:
+1. Ambil Nomor Antrian
+2. Layani Pelanggan
+3. Keluar
+> 1
+> Audi
+Nomor antrian 237 untuk Audi telah diambil pada 14:30:15.
+
+Menu:
+1. Ambil Nomor Antrian
+2. Layani Pelanggan
+3. Keluar
+> 1
+> Wildan
+Nomor antrian 563 untuk Wildan telah diambil pada 14:30:17.
+
+Menu:
+1. Ambil Nomor Antrian
+2. Layani Pelanggan
+3. Keluar
+> 2
+Melayani pelanggan Audi dengan nomor antrian 237 pada 14:30:19.
+
+Menu:
+1. Ambil Nomor Antrian
+2. Layani Pelanggan
+3. Keluar
+> 2
+Melayani pelanggan Wildan dengan nomor antrian 563 pada 14:30:21.
+
+Menu:
+1. Ambil Nomor Antrian
+2. Layani Pelanggan
+3. Keluar
+> 3
+Terima kasih! Program selesai.
+Simulasi selesai.
+
+
+
+
+
